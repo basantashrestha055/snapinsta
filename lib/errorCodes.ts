@@ -1,0 +1,29 @@
+export const ERROR_CODES = {
+  AUTH: {
+    INVALID_CREDENTIALS: "AUTH_001",
+    UNAUTHORIZED: "AUTH_002",
+    EMAIL_NOT_VERIFIED: "AUTH_003",
+  },
+  USER: {
+    NOT_FOUND: "USER_404",
+    ALREADY_EXISTS: "USER_001",
+  },
+  POST: {
+    NOT_FOUND: "POST_404",
+  },
+  COMMENT: {
+    NOT_FOUND: "COMMENT_404",
+  },
+  REEL: {
+    NOT_FOUND: "REEL_404",
+  },
+  STORY: {
+    NOT_FOUND: "STORY_404",
+  },
+  REQUEST: {
+    NOT_FOUND: "REQUEST_404",
+  },
+  MESSAGE: {
+    NOT_FOUND: "MESSAGE_404",
+  },
+} as const
